@@ -2,10 +2,7 @@
 
 Criar um conjunto de testes automatizados para o site Sauce Demo, uma aplicação web de demonstração para testes de automação.
 
-<div align="center">
 [Imgur](https://imgur.com/waPfLSy)
-</div>
-<br>
 
 ## Sobre o projeto:
 
