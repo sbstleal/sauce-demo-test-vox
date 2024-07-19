@@ -3,7 +3,7 @@
 Criar um conjunto de testes automatizados para o site Sauce Demo, uma aplicação web de demonstração para testes de automação.
 
 <div align="center">
-<blockquote class="imgur-embed-pub" lang="en" data-id="waPfLSy"><a href="https://imgur.com/waPfLSy">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
+[Imgur](https://imgur.com/waPfLSy)
 </div>
 <br>
 
