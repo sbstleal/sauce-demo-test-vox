@@ -1,20 +1,22 @@
 {
-  "name": "teste-qa-vox",
+  "name": "sauce-demo-test-vox",
   "version": "1.0.0",
-  "description": "��#\u0000 \u0000s\u0000a\u0000u\u0000c\u0000e\u0000-\u0000d\u0000e\u0000m\u0000o\u0000-\u0000t\u0000e\u0000s\u0000t\u0000-\u0000v\u0000o\u0000x\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "cy:run": "cypress run",
-    "cy:open": "cypress open",
-    "allure:generate": "allure generate allure-results --clean -o allure-report",
-    "allure:open": "allure open allure-report"
+    "cy:run": "npx cypress run --browser chrome",
+    "cy:open": "npx cypress open",
+    "allure:results": "npx allure serve allure-results",
+    "browser:chrome": "npx cypress run --browser=chrome --headed --spec 'cypress/e2e/**/*.cy.js' --reporter mocha-allure-reporter",
+    "report:allure": "allure generate allure-results --clean -o allure-report && allure open  allure-report"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "devDependencies": {
-    "allure-cypress": "^3.0.0-beta.7",
-    "cypress": "^13.13.1"
+    "allure-commandline": "^2.29.0",
+    "allure-cypress": "^2.15.1",
+    "cypress": "13.10",
+    "mocha-allure-reporter": "^1.4.0"
   }
 }
