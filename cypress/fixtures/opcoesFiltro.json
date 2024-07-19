@@ -1,0 +1,8 @@
+{
+  "opcoes": {
+    "nomeCrescente": "Name (A to Z)",
+    "nomeDecrescente": "Name (Z to A)",
+    "precoCrescente": "Price (low to high)",
+    "precoDecrescente": "Price (high to low)"
+  }
+}
