@@ -3,7 +3,7 @@
 Criar um conjunto de testes automatizados para o site Sauce Demo, uma aplicação web de demonstração para testes de automação.
 
 <div align="center">
-<img alt="Site para testes automatizados Saucedemo" src="[https://imgur.com/a/lLZCOtq" />
+![Site para testes automatizados Saucedemo](https://url-da-imagem.com/imagem.jpg)
 </div>
 <br>
 
